@@ -1,0 +1,151 @@
+#title {
+  color: red;
+  text-align: center;
+  border: 2px solid red;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+nav {
+  background-color: rgb(88, 100, 100);
+  color: whitesmoke;
+  height: 50px;
+  padding-top: 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+ul {
+  display: inline;
+}
+.search {
+  display: inline;
+  float: right;
+}
+.box {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.button {
+  color: green;
+  width: 70px;
+  height: 30px;
+  margin-right: 15px;
+  background-color: rgb(88, 100, 100);
+  text-align: center;
+  border-radius: 5px;
+  border-color: green;
+}
+#me {
+  text-transform: uppercase;
+}
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+#image {
+  float: right;
+  margin-top: 30px;
+}
+main > .about {
+  width: 50%;
+  display: inline-block;
+}
+
+.skill p {
+  display: inline-block;
+}
+.skill > :first-child {
+  width: 100px;
+}
+/* .skill > :last-child {
+  text-align: center;
+  background: yellow;
+  width: 50%;
+} */
+.bg {
+  margin-left: 100px;
+  height: 20px;
+  width: 60%;
+  display: inline-block;
+  background-color: rgb(167, 228, 240);
+}
+.bg p {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  height: 20px;
+  margin-top: 0;
+}
+/* #Experience
+{
+    background-color: bisque;
+    width: 1000px;
+   
+} */
+/* #rem
+{
+    background-color: white;
+   font-size: 4rem;
+}
+#em
+{
+    background-color: white;
+    font-size: 4em;
+} */
+
+/* a:hover {
+  background-color: #00ff00;
+  text-decoration: none;
+}
+a:active {
+  color: #0000ff;
+} */
+input:focus {
+  background-color: aqua;
+}
+input:checked {
+  width: 80px;
+  height: 80px;
+}
+input:disabled {
+  background-color: red;
+  width: 80px;
+  margin-bottom: 100px;
+}
+#footer {
+  background-color: lightgrey;
+  width: 300px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+#footer::after {
+  content: "after";
+  width: 20px;
+  background-color: lightblue;
+  margin-left: 20px;
+}
+#footer::before {
+  content: "before";
+  width: 20px;
+  background-color: lightpink;
+  margin-right: 20px;
+}
+/* a[href] {
+    background-color: gold;
+  } */
+  /* a[href^="#"] {
+    background-color: gold;
+  } */
+  /* a[href*="example"] {
+    background-color: silver;
+  } */
+  /* a[href*="insensitive" i] {
+    color: cyan;
+  } */
+  a[href*="cAsE" s] {
+    color: pink;
+  }
